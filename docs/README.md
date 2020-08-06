@@ -1,15 +1,18 @@
 ---
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: 
-actionText: Quick Start →
-actionLink: /guide/
+tagline: Les informations a connaitre absolument
+actionText: GO →
+actionLink: /ydays/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
+- title: Ydays
+  details: Tout connaitre sur les Ydays
+
+- title: Incubateur Web
+  details: Les details sur l'incubateur web
+  actionText: Quick Start →
+  actionLink: /incub-web/
+- title: Go
+  details: Je sais pas mais c'est bien 
 footer: Made by Zalbani with ❤️
 ---

@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Ydays',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -16,7 +16,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#d51a1a' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
@@ -34,26 +34,70 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Ydays',
+        link: '/ydays/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Incubateur web',
+        link: '/incub-web/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Projets',
+        link: 'https://ydays.ynov.com/'
+      },
+      {
+        text: 'Wiki',
+        link: 'https://auvencecom.sharepoint.com/teams/ydayslyon'
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/ydays/': [
         {
-          title: 'Guide',
+          title: 'Ydays',
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'calendar',
+            'lexique',
+            'roles',
+          ]
+        },
+        {
+          title: 'La notation',
+          collapsable: false,
+          sidebarDepth: 0,
+          children: [
+            'notation/auto-evaluation',
+            'notation/soutenances',
+            'notation/peer-grading',
+          ]
+        },
+        {
+          title: 'Les incubateurs',
+          collapsable: false,
+          sidebarDepth: 0,
+          children: [
+            'incubs/web',
+          ]
+        }
+      ],
+      '/incub-web/': [
+        {
+          title: 'Incubateur web',
+          collapsable: false,
+          children: [
+            '',
+            'tools',
+          ]
+        },
+        {
+          title: 'Les projets',
+          subtitle: 'Groupe A',
+          collapsable: false,
+          children: [
+            'projectsga',
+            'projectsgb',
+            'projectsgc',
           ]
         }
       ],
