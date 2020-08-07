@@ -2,6 +2,8 @@
 ## Introduction
 
 <card post-title="test"/>
+<card post-title="Coucou"/>
+<card post-title="Connard"/>
 
 ::: tip
 This is a tip
