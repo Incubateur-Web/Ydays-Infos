@@ -38,6 +38,10 @@ module.exports = {
         link: '/ydays/',
       },
       {
+        text: 'Incubateurs',
+        link: '/incubs/'
+      },
+      {
         text: 'Incubateur web',
         link: '/incub-web/'
       },
@@ -72,14 +76,16 @@ module.exports = {
             'notation/peer-grading',
           ]
         },
+      ],
+      '/incubs/': [
         {
-          title: 'Les incubateurs',
+          title: 'Incubateurs',
           collapsable: false,
-          sidebarDepth: 0,
           children: [
-            'incubs/web',
+            '',
+            'web',
           ]
-        }
+        },
       ],
       '/incub-web/': [
         {
