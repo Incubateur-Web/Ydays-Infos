@@ -62,7 +62,6 @@ module.exports = {
           children: [
             '',
             'calendar',
-            'lexique',
             'roles',
           ]
         },
